@@ -14,6 +14,8 @@ function add(){
 
     if (value < 0){
         count.style.color = "red";
+    } else {
+        count.style.color = "black";
     }
 }
 
@@ -24,5 +26,7 @@ function subtract(){
     
     if (value < 0){
         count.style.color = "red";
+    } else {
+        count.style.color = "black";
     }
 }

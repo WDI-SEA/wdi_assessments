@@ -45,3 +45,7 @@ input {
     color: #ffffff;
     border-radius: 10px;
 }
+.button:hover{
+    background-color:#ffffff;
+    color: rgb(58, 58, 58);
+ }

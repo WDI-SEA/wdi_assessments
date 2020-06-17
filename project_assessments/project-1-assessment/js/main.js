@@ -1,37 +1,37 @@
 //DOM references
 
-let displayDiv = parseInt(document.getElementById('count-display').innerText)
+let displayDiv = document.getElementById('count-display')
 
 let plusBtn = document.getElementById("plus-btn");
 let minusBtn = document.getElementById("minus-btn");
 
-let numInput = parseInt(document.getElementById("number").value)
+let numInput = document.getElementById("number")
 
 
 
 //access the input's value
 
-//on click for + button, add the input to the display
+//on click for + button, add the input to the displayResult 
 
-//on clikc for - button, add the input to the display
 
-var resultAdd = 0;
+//on clikc for - button, subtract the input from the displayResult
+
+
+var displayResult = 0;
+
+
 
 function add() {
-   console.log(displayDiv)
-   console.log(numInput)
-   resultAdd =  numInput + displayDiv;
-    console.log(resultAdd)
-//    var x = document.createElement("p");
-//    x.textContext = parseInt(displayDiv);
-//    document.getElementById('count-display').append(x)
+//  console.log(parseInt(numInput.value))
+    let convertedNum = parseInt(numInput.value)
+
+    displayResult += convertedNum 
+
+    console.log(displayResult)
+
+    updateDisplay()
 }
 
 
+plusBtn.addEventListener('click', add)
 
-function mathBot() {
-    plusBtn.addEventListener('click', add)
-
-}
-
-mathBot()

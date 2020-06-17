@@ -9,6 +9,7 @@ let clickCount = 0
 
 minusBtn.addEventListener('click', function(e) {
     let userInput = document.getElementById('numberIn').value
+    
     console.log(resultDiv)
     if (clickCount < 1) {
         resultDiv.innerText = resultStart - userInput
@@ -20,11 +21,14 @@ minusBtn.addEventListener('click', function(e) {
         clickCount++
         console.log(clickCount)
     }
+
+    
 })
 
 
 plusBtn.addEventListener('click', function(e) {
     let userInput = document.getElementById('numberIn').value
+    
     console.log(resultDiv)
     if (clickCount < 1) {
         resultDiv.innerText = resultStart + Number(userInput)

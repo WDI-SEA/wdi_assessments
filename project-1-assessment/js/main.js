@@ -15,12 +15,22 @@ window.addEventListener("DOMContentLoaded", (event) => {
   addBtn.addEventListener("click", () => {
     counter += parseInt(increment.value);
     // console.log(counter);
+    if (counter < 0) {
+      countDisplay.className = "red";
+    } else {
+      countDisplay.className = "";
+    }
     countDisplay.innerText = `${counter}`;
   });
 
   subtractBtn.addEventListener("click", () => {
     counter -= parseInt(increment.value);
     // console.log(counter);
+    if (counter < 0) {
+      countDisplay.className = "red";
+    } else {
+      countDisplay.className = "";
+    }
     countDisplay.innerText = `${counter}`;
   });
 });

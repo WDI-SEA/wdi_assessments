@@ -1,0 +1,42 @@
+body {
+    background-color: aqua;
+   
+}
+
+div {
+    width: 30%;
+    margin: auto;
+    
+}
+
+input, button {
+    display:inline-block;
+    padding: 20px;
+}
+
+#form {
+    text-align: center;
+    
+}
+#add {
+    background-color: lightgrey;
+    
+}
+
+#add:hover {
+    background-color:white;
+}
+
+#subtract {
+    background-color: white;
+}
+
+#subtract:hover {
+background-color: lightgrey;
+}
+
+#output {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}

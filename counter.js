@@ -1,37 +1,42 @@
 const numDisplay = document.getElementById("num-display");
-const userInput = document.getElementById("user-num");
 const plus = document.getElementById("plus");
 const minus = document.getElementById('minus');
+const input = document.getElementById("user-num");
 
-let numValue = 0
+//this works only in console
+let x = parseInt(input.value);
+let clickValue = 0;
+let numValue = x + clickValue;
 
-//need a function to add the user input value
-userInput.addEventListener("keyup", function(){
+//keyup function
+input.addEventListener("keyup", function (){
+    x = parseInt(input.value);
+    numValue = x + clickValue;
     numDisplay.innerText = numValue;
-    numValue = userInput.value;
-    return numValue;
 })
 
 //event listeners for the plus and minus buttons
 plus.addEventListener("click", function (){
-    numDisplay.innerText = numValue;
-    numValue++;
+    clickValue++;
     if(numValue < 0){
         numDisplay.style.color = "red";
     }else{
         numDisplay.style.color = "black";
     }
+    numValue = x + clickValue;
+    numDisplay.innerText = numValue;
     return numValue;
 })
 
 minus.addEventListener("click", function (){
-    numDisplay.innerText = numValue;
-    numValue--;
+    clickValue--;
     if(numValue < 0){
         numDisplay.style.color = "red";
     }else{
         numDisplay.style.color = "black";
     }
+    numValue = x + clickValue;
+    numDisplay.innerText = numValue;
     return numValue;
 })
 

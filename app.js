@@ -1,4 +1,3 @@
-
 var count = 0
 
 document.getElementById("minus").addEventListener("click", () =>{
@@ -21,6 +20,3 @@ document.getElementById("plus").addEventListener("click", () =>{
     document.getElementById("contentDisplay").innerHTML = count
 })
 
-function displayChanger(){
-    docum
-}

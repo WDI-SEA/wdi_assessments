@@ -1,37 +1,27 @@
-//DOM references
+// --------------> DOM REFERENCES <-----------------------
+let displayNum = document.getElementById('count-display');
 
-let displayDiv = document.getElementById('count-display')
+let plusButton = document.getElementById('plus-btn');
+let minusButton = document.getElementById('minus-btn');
 
-let plusBtn = document.getElementById("plus-btn");
-let minusBtn = document.getElementById("minus-btn");
-
-let numInput = document.getElementById("number")
-
+let inputField = document.getElementById('number');
 
 
 //access the input's value
-
-//on click for + button, add the input to the displayResult 
-
-
-//on clikc for - button, subtract the input from the displayResult
-
-
-var displayResult = 0;
-
-
-
 function add() {
-//  console.log(parseInt(numInput.value))
-    let convertedNum = parseInt(numInput.value)
+    console.log(parseInt(inputField.value))
 
-    displayResult += convertedNum 
+}
 
-    console.log(displayResult)
-
-    updateDisplay()
+function minus() {
+    console.log("You clicked the subtract button")
 }
 
 
-plusBtn.addEventListener('click', add)
+// -------------------> CLICK EVENTS <------------------
 
+//on click for + button, add the input to the displayResult 
+//on clikc for - button, subtract the input from the displayResult
+
+plusButton.addEventListener('click', add)
+minusButton.addEventListener('click', minus)

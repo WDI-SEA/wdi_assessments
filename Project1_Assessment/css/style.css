@@ -1,0 +1,39 @@
+
+.section {
+    /* display: inline-block;
+    text-align: center; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 100px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#count {
+    margin: 0px 5px;
+    text-align: center;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-size: 30px;
+}
+
+#plus, #minus {
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border-radius: 5px;
+}

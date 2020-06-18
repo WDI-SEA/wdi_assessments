@@ -6,16 +6,31 @@ let minusButton = document.getElementById('minus-btn');
 
 let inputField = document.getElementById('number');
 
+var result = 0;
+
+
+
 
 //access the input's value
 function add() {
-    console.log(parseInt(inputField.value))
+    // console.log(parseInt(inputField.value));
+    let numberInput = parseInt(inputField.value)
 
+    result += numberInput;
+    console.log(result)
+    
+    // console.log(displayNum.innerText)
+    displayNum.innerText = result
 }
 
 function minus() {
-    console.log("You clicked the subtract button")
-}
+    let numberInput = parseInt(inputField.value)
+
+    result -= numberInput;
+    console.log(result)
+    
+    // console.log(displayNum.innerText)
+    displayNum.innerText = result}
 
 
 // -------------------> CLICK EVENTS <------------------

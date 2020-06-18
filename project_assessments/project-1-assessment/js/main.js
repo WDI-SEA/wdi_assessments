@@ -17,7 +17,7 @@ function add() {
     let numberInput = parseInt(inputField.value)
 
     result += numberInput;
-    console.log(result)
+    // console.log(result)
     
     // console.log(displayNum.innerText)
     displayNum.innerText = result
@@ -27,10 +27,11 @@ function minus() {
     let numberInput = parseInt(inputField.value)
 
     result -= numberInput;
-    console.log(result)
+    // console.log(result)
     
     // console.log(displayNum.innerText)
-    displayNum.innerText = result}
+    displayNum.innerText = result
+}
 
 
 // -------------------> CLICK EVENTS <------------------

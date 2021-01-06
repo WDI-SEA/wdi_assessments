@@ -6,8 +6,6 @@
 
 This **Introduction** section will be read in class by the instructor.
 
-Students are to have their laptops closed until directed to open them.
-
 Students will be self-directed beginning with the **Instructions & Time Guidelines** section below.
 
 ### GOAL
@@ -22,21 +20,20 @@ The goal of this final assessment is to gauge your ability to develop a **minima
 	- Listen for browser events, such as `click`, being dispatched by DOM elements.
 	- Manipulate a DOM element's content and style. 
 
-### DEMO
+### OVERALL APPLICATION
 
-The instructor will now demonstrate the app you will be building.
+This is what your application should look like:
+<img src="https://i.imgur.com/nsLfnoG.png">
 
-### OVERALL APPLICATION REQUIREMENTS
-
-As you saw, the application's UI consists of:
+The application's UI consists of:
 
 - A count display
 - Two buttons ("+" & "-")
 - An `<input>` element
 
-Use the screenshots below as your "wireframes".
+Application requirements are expounded on in each section below. Make sure you read through the instructions completely.
 
-Lastly, the styling does not have to be exact, however, the closer it is to the screenshots, the better!
+Use the screenshots below as your "wireframes"; the styling does not have to be exact, however, the closer it is to the screenshots, the better!
 
 ### PROCESS
 
@@ -46,7 +43,7 @@ The good news is that it's "open book" - you may reference anything on your comp
 
 However, don't spend too much time researching unless you're stuck - **do not over-think this application!!!**
 
-It is estimated that this project assessment will take 60 to 90 minutes to complete. However, you have 2 hours should you need the extra time.
+It is estimated that this project assessment will take 60 to 90 minutes to complete. However, you have 3 hours should you need the extra time.
 
 ## Instructions & Time Guidelines (You've Got This!)
 
@@ -120,9 +117,11 @@ As a bonus, display the count in red if it is a negative value!
 
 <img src="https://i.imgur.com/LCSG1Wg.png">
 
+You can also code for edge cases (for example, if someone puts a string in the input area)
+
 ## Hints
 
-- Prioritize functionality over layout/styling. Once the functionality is complete, then work on styling to get the UI as close as possible to the wireframes/images (see the below hint for using flexbox for layout).
+- **Prioritize functionality over layout/styling.** Once the functionality is complete, then work on styling to get the UI as close as possible to the wireframes/images (see the below hint for using flexbox for layout).
 - The principles in [Guide on How to Build a Browser App](https://github.com/ga-students/wdi-dt-57/blob/master/work/w01/d5/03-guide-to-building-a-browser-app.md) apply!
 - Use CSS flexbox to ease horizontal and vertical centering:
 

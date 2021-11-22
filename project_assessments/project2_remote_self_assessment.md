@@ -40,13 +40,11 @@ There is a CSS file included which styles the elements you might need. Feel free
 
 ### PROCESS
 
-This assessment is an **individual** assignment - no collaboration please.
+This assessment is an **individual** assignment - no collaboration please. While we will not grade this, it is a really solid indicator of your grasp on unit 2 concepts and can be a valuable self-check.
 
 It's "open book" - you may reference anything on your computer, Google, use notes, etc. 
 
 It is anticipated that it will take approximately **90 minutes** to complete this assessment, however, if necessary, you have up to 3 hours to finish.
-
-When finished you will demo your app to an instructor and slack them the link to your personal GitHub repo.
 
 ## Instructions & Estimated Time Guidelines (You've Got This!)
 

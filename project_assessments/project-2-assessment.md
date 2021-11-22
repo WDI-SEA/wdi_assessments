@@ -106,7 +106,7 @@ Some basic CSS is also provided to you.
 
 #### Planning
 
-Before you start coding, think about your data and your routes. Refer to the big RESTful routing chart. (It's already set up for "widgets"! Ha!) You can *add* a widget. You can *delete* a widget. You *read an index* of all widgets. Those are the only actions you need to plan for. What are the HTTP verbs you use for those operations? What are the URLs? Refer to the chart!
+Before you start coding, think about your data and your routes. Refer to the big [RESTful routing chart](https://github.com/WDI-SEA/wdi_assessments/blob/master/project_assessments/project2_remote_self_assessment.md). You can *add* a widget. You can *delete* a widget. You *read an index* of all widgets. Those are the only actions you need to plan for. What are the HTTP verbs you use for those operations? What are the URLs? Refer to the chart!
 
 #### STEP 3.1 - Root Route
 
